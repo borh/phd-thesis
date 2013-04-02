@@ -13,22 +13,22 @@
 %----------------------------------------------------------------------------------------
 
 % Remove drafting to get rid of the '[ Date - classicthesis version 4.0 ]' text at the bottom of every page
-\PassOptionsToPackage{eulerchapternumbers,listings,drafting, pdfspacing, subfig,beramono,eulermath,parts}{classicthesis}
+\PassOptionsToPackage{eulerchapternumbers,listings,drafting, pdfspacing, subfig,eulermath,parts}{classicthesis}
 % Available options: drafting parts nochapters linedheaders eulerchapternumbers beramono eulermath pdfspacing minionprospacing tocaligned dottedtoc manychapters listings floatperchapter subfig
 % Adding 'dottedtoc' will make page numbers in the table of contents flushed right with dots leading to them
 
-\newcommand{\myTitle}{A Classic Thesis Style\xspace}
-\newcommand{\mySubtitle}{An Homage to The Elements of Typographic Style\xspace}
-\newcommand{\myDegree}{Doktor-Ingenieur (Dr.-Ing.)\xspace}
-\newcommand{\myName}{Andr\'e Miede\xspace}
-\newcommand{\myProf}{Put name here\xspace}
+\newcommand{\myTitle}{Contextually Aware Writing Assistance System for Japanese\xspace}
+\newcommand{\mySubtitle}{Subtitle (TODO)\xspace}
+\newcommand{\myDegree}{Doctor of Philosophy in Engineering\xspace}
+\newcommand{\myName}{Bor Hodošček\xspace}
+\newcommand{\myProf}{Masao Murota\xspace}
 \newcommand{\myOtherProf}{Put name here\xspace}
-\newcommand{\mySupervisor}{Put name here\xspace}
-\newcommand{\myFaculty}{Put data here\xspace}
-\newcommand{\myDepartment}{Put data here\xspace}
-\newcommand{\myUni}{Put data here\xspace}
-\newcommand{\myLocation}{Darmstadt\xspace}
-\newcommand{\myTime}{December 2011\xspace}
+\newcommand{\mySupervisor}{Masao Murota\xspace}
+\newcommand{\myFaculty}{Graduate School of Decision Science and Technology\xspace}
+\newcommand{\myDepartment}{Human System Science\xspace}
+\newcommand{\myUni}{Tokyo Institute of Technology\xspace}
+\newcommand{\myLocation}{Tokyo\xspace}
+\newcommand{\myTime}{September 2013\xspace}
 \newcommand{\myVersion}{version 4.0\xspace}
 
 %----------------------------------------------------------------------------------------
@@ -38,7 +38,7 @@
 \newcommand{\ie}{i.\,e.}
 \newcommand{\Ie}{I.\,e.}
 \newcommand{\eg}{e.\,g.}
-\newcommand{\Eg}{E.\,g.} 
+\newcommand{\Eg}{E.\,g.}
 
 \newcounter{dummy} % Necessary for correct hyperlinks (to index, bib, etc.)
 \providecommand{\mLyX}{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
@@ -50,27 +50,30 @@
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
 %------------------------------------------------
- 
-\PassOptionsToPackage{latin9}{inputenc} % latin9 (ISO-8859-9) = latin1+"Euro sign"
-\usepackage{inputenc}
- 
+
+% Not used with lualatex/xelatex:
+%\PassOptionsToPackage{latin9}{inputenc} % latin9 (ISO-8859-9) = latin1+"Euro sign"
+%\usepackage{inputenc}
+
  %------------------------------------------------
 
+% Set in pandoc template file:
 %\PassOptionsToPackage{ngerman,american}{babel}  % Change this to your language(s)
 % Spanish languages need extra options in order to work with this template
 %\PassOptionsToPackage{spanish,es-lcroman}{babel}
-\usepackage{babel}
+%\usepackage{babel}
 
-%------------------------------------------------			
+%------------------------------------------------
 
-\PassOptionsToPackage{square,numbers}{natbib}
- \usepackage{natbib}
- 
+% Prefer biblatex.
+%\PassOptionsToPackage{square,numbers}{natbib}
+% \usepackage{natbib}
+
  %------------------------------------------------
 
-\PassOptionsToPackage{fleqn}{amsmath} % Math environments and more by the AMS 
+\PassOptionsToPackage{fleqn}{amsmath} % Math environments and more by the AMS
  \usepackage{amsmath}
- 
+
  %------------------------------------------------
 
 \PassOptionsToPackage{T1}{fontenc} % T2A for cyrillics
@@ -86,7 +89,7 @@
 
 %------------------------------------------------
 
-\usepackage{fixltx2e} % Fixes some LaTeX stuff 
+\usepackage{fixltx2e} % Fixes some LaTeX stuff
 
 %------------------------------------------------
 
@@ -101,7 +104,7 @@
 %------------------------------------------------
 
 \PassOptionsToPackage{pdftex}{graphicx}
-\usepackage{graphicx} 
+\usepackage{graphicx}
 
 %----------------------------------------------------------------------------------------
 %	FLOATS: TABLES, FIGURES AND CAPTIONS SETUP
@@ -109,17 +112,17 @@
 
 \usepackage{tabularx} % Better tables
 \setlength{\extrarowheight}{3pt} % Increase table row height
-\newcommand{\tableheadline}[1]{\multicolumn{1}{c}{\spacedlowsmallcaps{#1}}}
+\newcommand{\tableheadline}[1]{\multicolumn{1}{c}{\textls{\MakeTextUppercase{#1}}}}
 \newcommand{\myfloatalign}{\centering} % To be used with each float for alignment
 \usepackage{caption}
 \captionsetup{format=hang,font=small}
-\usepackage{subfig}  
+\usepackage{subfig}
 
 %----------------------------------------------------------------------------------------
 %	CODE LISTINGS SETUP
 %----------------------------------------------------------------------------------------
 
-\usepackage{listings} 
+\usepackage{listings}
 %\lstset{emph={trueIndex,root},emphstyle=\color{BlueViolet}}%\underbar} % for special keywords
 \lstset{language=[LaTeX]Tex, % Specify the language for listings here
 keywordstyle=\color{RoyalBlue}, % Add \bfseries for bold
@@ -149,10 +152,10 @@ belowcaptionskip=.75\baselineskip % Space after the "Listing #: Desciption" text
 
 \hypersetup{
 % Uncomment the line below to remove all links (to references, figures, tables, etc)
-%draft, 
+%draft,
 colorlinks=true, linktocpage=true, pdfstartpage=3, pdfstartview=FitV,
 % Uncomment the line below if you want to have black links (e.g. for printing black and white)
-%colorlinks=false, linktocpage=false, pdfborder={0 0 0}, pdfstartpage=3, pdfstartview=FitV, 
+%colorlinks=false, linktocpage=false, pdfborder={0 0 0}, pdfstartpage=3, pdfstartview=FitV,
 breaklinks=true, pdfpagemode=UseNone, pageanchor=true, pdfpagemode=UseOutlines,
 plainpages=false, bookmarksnumbered, bookmarksopen=true, bookmarksopenlevel=1,
 hypertexnames=true, pdfhighlight=/O, urlcolor=webbrown, linkcolor=RoyalBlue, citecolor=webgreen,
@@ -165,7 +168,7 @@ pdfkeywords={},
 pdfcreator={pdfLaTeX},
 pdfproducer={LaTeX with hyperref and classicthesis}
 %------------------------------------------------
-}   
+}
 
 %----------------------------------------------------------------------------------------
 %	BACKREFERENCES
@@ -181,23 +184,23 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 \ifthenelse{\boolean{enable-backrefs}} % If backrefs were enabled
 {
 \PassOptionsToPackage{hyperpageref}{backref}
-\usepackage{backref} % to be loaded after hyperref package 
+\usepackage{backref} % to be loaded after hyperref package
 \renewcommand{\backreftwosep}{ and~} % separate 2 pages
 \renewcommand{\backreflastsep}{, and~} % separate last of longer list
 \renewcommand*{\backref}[1]{}  % disable standard
 \renewcommand*{\backrefalt}[4]{% detailed backref
-\ifcase #1 
+\ifcase #1
 \backrefnotcitedstring
 \or
 \backrefcitedsinglestring{#2}
 \else
 \backrefcitedmultistring{#2}
 \fi}
-}{\relax} 
+}{\relax}
 
 %----------------------------------------------------------------------------------------
 %	AUTOREFERENCES SETUP
-%	Redefines how references in text are prefaced for different 
+%	Redefines how references in text are prefaced for different
 %	languages (e.g. "Section 1.2" or "section 1.2")
 %----------------------------------------------------------------------------------------
 
@@ -229,10 +232,10 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 
 %----------------------------------------------------------------------------------------
 
-\usepackage{classicthesis} 
+\usepackage{classicthesis}
 
 %----------------------------------------------------------------------------------------
-%	CHANGING TEXT AREA 
+%	CHANGING TEXT AREA
 %----------------------------------------------------------------------------------------
 
 %\linespread{1.05} % a bit more for Palatino
