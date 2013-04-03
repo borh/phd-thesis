@@ -110,6 +110,7 @@ $if(tables)$
 \usepackage{longtable}
 \usepackage{ctable}
 \usepackage{float} % provides the H option for float placement
+\usepackage{multirow}
 $endif$
 $if(graphics)$
 \usepackage{graphicx}
