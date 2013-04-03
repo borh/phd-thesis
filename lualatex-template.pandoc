@@ -80,6 +80,7 @@ $if(biblatex)$
 \usepackage{csquotes}
 \usepackage[style=apa,backend=biber,autocite=inline,hyperref=false]{biblatex}
 \DeclareLanguageMapping{american}{american-apa}
+\let\autocite=\parencite
 $if(biblio-files)$
 \bibliography{$biblio-files$}
 $endif$
