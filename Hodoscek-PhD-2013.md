@@ -49,7 +49,7 @@ Also, what follows from this is that in order to be understood, the writer must 
 
 -   does telling writers their text is not fit for their target genre useful?
     -   it raises their sensitivity
--   best writing assistance: writing centers in the US?? staff talks through the essay with the writer, in a tight feedback loop (check \parencite{Bawarshi2010})
+-   best writing assistance: writing centers in the US?? staff talks through the essay with the writer, in a tight feedback loop (check [@Bawarshi2010])
 
 -   what is the minimum language proficiency required to make use of writing assistance systems?
 
@@ -82,20 +82,20 @@ At what level can writing be automatically improved?
 
 -   Spelling checkers
     -    Less applicable to Japanese because of the presence of intelligent Input Method Environments (IME)
--   Grammar vs. style checkers (cf. \parencite{heidorn2000intelligent})
-    -    Domain-specific grammar checkers can be effective (cf. Boeing's \parencite{hoard1992automated}), but require considerable manual tuning and rule creation
+-   Grammar vs. style checkers (cf. [@heidorn2000intelligent])
+    -    Domain-specific grammar checkers can be effective (cf. Boeing's [@hoard1992automated]), but require considerable manual tuning and rule creation
 -   Direct or indirect feedback?
     -    Indirect feedback preferred because it forces the writer to reflect [@godwin2008emerging]
 
 -   what are the main evolutions (revolutions) in writing on a computer compared to, say, a typewriter or pen?
 -   similar systems (feature matrix?)
     -   Newer efforts: Coori, lang-8
--   domain-specific grammar checkers have been found to be effective (cf. Boeing's \parencite{hoard1992automated}) provided they encode domain-specific rules into the engine, which is time-labor intensive
+-   domain-specific grammar checkers have been found to be effective (cf. Boeing's [@hoard1992automated]) provided they encode domain-specific rules into the engine, which is time-labor intensive
 
 > What tends to be of most use to learners is indirect feedback, which points to problems in written
 > work but leaves it to the writer to find the solution. This requires the learner to reflect on the
 > application of language rules to one's own actual writing. Many language teachers use codes (such
-> as John Lalande's ECCO - error correction code) to mark student writing. -- \parencite{godwin2008emerging}
+> as John Lalande's ECCO - error correction code) to mark student writing. -- [@godwin2008emerging]
 
 : Feature matrix
 
@@ -139,7 +139,7 @@ With respect to evaluation, I am referring to the evaluation in of the models of
 !!! FIX と→て
 ＋共同研究
 
-\includegraphics[height=\textheight]{images/schramm-context.pdf}
+![](images/schramm-context.pdf)
 
 Explain context in terms of writing intent, register, genre, topic, readability, etc.
 
@@ -297,7 +297,7 @@ Table: Models
 
 **Topic definition:** _the subject of a text. Does not necessarily refer to the subject of a sentence. One or more topics per text._
 
--   Proposed models \parencite{NCHodoscek2012E}
+-   Proposed models [@NCHodoscek2012E]
 
     Probabilistic topic model (Latent Dirichlet Allocation), tf-idf ($\rightarrow max$) vector space model
 
@@ -315,7 +315,7 @@ Table: Models
 
 ### Latent Dirichlet Allocation Topic Model
 
-![Latent Dirichlet Allocation topic model used in \cite{NCHodoscek2012E} (unrefereed)](images/lda-topic-model.pdf)
+![Latent Dirichlet Allocation topic model used in [@NCHodoscek2012E] (unrefereed)](images/lda-topic-model.pdf)
 
 Proposed Model:
 
@@ -330,7 +330,7 @@ Proposed Model:
 
 **Readability definition:** _quality of text that makes it easy or hard to understand._
 
--   Proposed models \cite{CASTELJHodoscek2012}
+-   Proposed models [@CASTELJHodoscek2012]
 
     A combination of vocabulary, collocation, syntactic structure and language-model based readability measures
 
@@ -371,7 +371,7 @@ Previous Research:
 
 Proposed Model:
 
--   \parencite{CASTELJHodoscek2012}
+-   [@CASTELJHodoscek2012]
 -   JLPT word list
 -   BCCWJ word list (Matsushita TM list (Tokyo Univ.): [日本語を勉強する人のための語彙データベース](https://www.google.co.jp/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CC4QFjAA&url=http%3A%2F%2Fwww.wa.commufa.jp%2F~tatsum%2FVDLJ_Ver1_0_International-Students.xlsx&ei=owAaUfOXDO_vmAXvmoHwDA&usg=AFQjCNHMEPokeGPt7vQlSf-J78ZxHcXhsg), Tsukuba Univ. list: [日本語教育語彙表](http://kotoba.nuee.nagoya-u.ac.jp/jc2/base/))
 -   Obi2
@@ -424,7 +424,7 @@ Compare: Natsume+word processor vs. word+dictionary
 
 # [Nutmeg](http://hinoki.ryu.titech.ac.jp/nutmeg/)
 
-Writing assistance system that identifies errors in **reports and academic prose** \parencite{NCYagi2012E}.
+Writing assistance system that identifies errors in **reports and academic prose** [@NCYagi2012E].
 
 -   Reduce cognitive burden associated with switching between applications while writing
 -   Detect errors that learners themselves are unaware of
@@ -500,7 +500,7 @@ Features:
 -   ['Natane'](http://hinoki.ryu.titech.ac.jp/natane/) Japanese learners corpus: contains around 200 corrected reports and essays by Japanese learners
     -   Measure the precision and recall of correction features
 
-Natane (cf. \parencite{dale2012framework}, ["Helping Our Own" project](http://clt.mq.edu.au/research/projects/hoo/)).
+Natane (cf. [@dale2012framework], ["Helping Our Own" project](http://clt.mq.edu.au/research/projects/hoo/)).
 -   One "problem" with Natane is the inclusion of a lot of register annotations/corrections that might not appear in other more general essay-like learner corpora, but as this is the point of my research, this is a given and should be said up-front
 
 ### Evaluation (2): Experiment
