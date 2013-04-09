@@ -116,13 +116,13 @@ Construction and evaluation of writing assistance system for Japanese based on t
 
 Construction:
 
--   Models of context **(Ch. 2)**
--   Web-based writing assistance system **(Ch. 3)**
+-   Models of context
+-   Web-based writing assistance system
 
 Evaluation:
 
--   Evaluate models of context **(Ch. 2)**
--   Evaluate system features  **(Ch. 3)**
+-   Evaluate models of context
+-   Evaluate system features
 
 Finally, the aim of my research is to construct and evaluate a writing assistance system for Japanese based on the concept of writing context.
 
