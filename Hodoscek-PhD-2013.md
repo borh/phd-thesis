@@ -217,6 +217,28 @@ Should show how different parts of the text and sentence manifest themselves as 
 \end{tabular}
 \end{table}
 
+### Corpus Metadata
+
+Describe the myriad metadata used to categorize corpora.
+
+Introduce the hierarchical tree model.
+Explain how counts work in such a model and how they can be transformed to information measures.
+Show how the model is absolutely essential to all else that I want to show.
+Pitfalls of the model: some metadata is not strictly hierarchical -- some is flat (conversation, Q/A, etc.).
+In reality, it's more of a directed graph?
+
+### Count Normalization
+
+Normalizing counts is important because ....
+
+When comparing counts from different corpus subsets, normalization is done based on the count type.
+For example, when comparing occurrences of adjective-noun collocations among different corpus subsets, each subset's count is normalized with the total number of collocations in that subset.
+In this way, ...
+A problem with this approach (raw frequency) is that it does not correctly account for _hapax legema_ ^[Tokens or other languages units which only occur once.] or yet-unseen tokens/language units.
+
+Another way of comparing counts is to use some form of smoothing that takes into account the existence of unseen occurrences and assigns some probability mass to them.
+Common techniques for smoothing language data are Good-Turing ...
+
 ## Register Model
 
 **Register definition:** _variation in language directly connected with the situation, or context, of its use._
