@@ -563,17 +563,22 @@ Proposed novel method for using writing context for writing assistance.
     -   Writing contexts other than report writing can be added as long as there is sufficient language data
 2.  Possible to increase learner awareness towards differences in language
     -   Close the experience gap between second language and native writers, non-experts and experts
+3.  Compared to existing systems that do not take into account the writer's context, \ldots
 
--   compared to existing systems that do not take into account the writer's context, \ldots
+The building blocks of a writing assistance system are many, and I have only touched on a portion of them.
+The essential building blocks of A, B, and C are, however, explained in detail.
+For many of these parts, I have stretched the use of available resources (in terms of access to language data and NLP technologies) to their maximum, and more research, including novel NLP methods as well as language resources are necessary.
 
+Framing the results of my thesis with respect to language learning and teaching, applied and theoretical linguistics, as well as educational technology, I believe the following to be true:
 
-作文支援システム構築のため、言語資源を用いて、自然言語処理で可能な部分を実現させること
-
-教育（学習）的視点からは、レジスターの理論的フレームを利用して、学習者（論文などを書く必要のある留学生）に　レジスターの概念を意識化させることをある程度実現したということだと思います。
-
-理論的には、　教育工学ではdata　driven　learning　、言語学では機能文法（Halliday）,Topic理論、言語処理では、統計手法（Biber を含む）機械学習の考え方... このような理論的な枠組みで新しい考えがどう埋めれたかをアピールすることが最も重要です。
-
-つまり、今までなかったもの、できなかったことをどのようにして、新しい手法を確立し、何を可能にしたかということです。
+1.  Contributions to language learning and teaching
+    -   Application of theory of register to learner academic writing
+    -   Deepen learner understanding of the register they are writing in (academic Japanese)
+2. Contributions to applied and theoretical linguistics
+    -   Genre framed in terms of Systemic Functional Linguistics, Biber's register/genre/style
+    -   C
+3.  Educational technology
+    -   Efficacy of Data-Driven Learning approach to learning register and writing
 
 # Appendix
 
