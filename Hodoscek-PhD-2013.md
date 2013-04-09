@@ -194,7 +194,7 @@ Should show how different parts of the text and sentence manifest themselves as 
 \begin{table}
 \small
 \centering
-\caption{\footnotesize Different corpora employed in this research (STJC = ; BCCWJ = )}
+\caption{\footnotesize Different corpora employed in this research (STJC = Scientific and Technical Japanese Corpus; BCCWJ = Balanced Corpus of Contemporary Written Japanese)}
 \vspace{.3em}
 \begin{tabular}[c]{ll|r}
 \toprule
