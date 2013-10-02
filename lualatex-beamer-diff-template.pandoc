@@ -1,0 +1,416 @@
+\documentclass[$if(fontsize)$$fontsize$,$else$14pt,$endif$$if(handout)$handout,$endif$$if(beamer)$ignorenonframetext,$endif$,compress,shrink,squeeze,xcolor=x11names,lualatex]{$documentclass$} %hyperref={pdfpagelables=false}
+$if(theme)$
+\usetheme{$theme$}
+$endif$
+$if(colortheme)$
+\usecolortheme{$colortheme$}
+$endif$
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+
+% % For chi-sq plots
+% \usepackage{pgfplots}
+% \usepackage{luacode}
+
+\ifxetex
+  \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\else
+  \ifluatex
+    \usepackage{fontspec}
+    \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+    \usepackage{luatexja}
+    \usepackage{luatexja-fontspec}
+    \usepackage{xunicode}
+    \newfontfeature{Microtype}{protrusion=quality;expansion=quality;}
+    \defaultfontfeatures{Microtype,Fractions=Off,Scale=MatchLowercase,Ligatures=TeX}
+    \usefonttheme{professionalfonts}
+    \usepackage{unicode-math}
+    \usepackage{lualatex-math}
+    \setmathfont{XITSMath}
+    \usepackage{libertineotf}
+    \usepackage{tgheros}
+    %\setmainfont[
+    %    BoldFont={LinLibertineOB},
+    %    ItalicFont={LinLibertineOI},
+    %    BoldItalicFont={LinLibertineOBI}
+    %]{LinLibertineO}
+    \setmainfont{SourceSansPro}
+    \setsansfont{SourceSansPro}
+    \setmonofont{DroidSansMono}
+    \newfontfamily\condensedsans{ProximaNovaCond-Semibold}
+    \usepackage{microtype}
+  \else
+    \usepackage[utf8]{inputenc}
+  \fi
+\fi
+$if(natbib)$
+\usepackage{natbib}
+\bibliographystyle{plainnat}
+$endif$
+$if(biblatex)$
+\usepackage{hyphenat}
+\usepackage[american]{babel}
+\usepackage{csquotes}
+\usepackage[style=apa,backend=biber,autocite=inline,hyperref=false]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+
+%\renewcommand{\autocite}{\parencite}
+\newcommand{\uline}[1]{%
+    \tikz[baseline=(todotted.base)]{
+        \node[inner sep=1pt,outer sep=0pt] (todotted) {#1};
+        \draw[thick] (todotted.south west) -- (todotted.south east);
+    }%
+}%
+
+$if(biblio-files)$
+\addbibresource{$biblio-files$.bib}
+$else$
+\addbibresource{bibliography/doctors-bibliography.bib}
+$endif$
+$endif$
+
+$if(listings)$
+\usepackage{listings}
+$endif$
+$if(lhs)$
+\lstnewenvironment{code}{\lstset{language=Haskell,basicstyle=\small\ttfamily}}{}
+$endif$
+$if(highlighting-macros)$
+$highlighting-macros$
+$endif$
+
+%\newcommand{\backupbegin}{
+%   \newcounter{framenumberappendix}
+%   \setcounter{framenumberappendix}{\value{framenumber}}
+%}
+%\newcommand{\backupend}{
+%   \addtocounter{framenumberappendix}{-\value{framenumber}}
+%   \addtocounter{framenumber}{\value{framenumberappendix}}
+%}
+
+%% General document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+%\usepackage{textpos}
+\usepackage{color}
+%\usepackage{hyperref}
+% --- bor custom
+\beamertemplatenavigationsymbolsempty
+\mode<presentation>
+{
+  \usetheme{bunsen}
+  \setbeamercovered{highly dynamic}
+  \setbeamertemplate{items}[circle]
+  \setbeamertemplate{caption}[numbered] % number figures and tables
+  \setbeamertemplate{footline}[bunsentheme]
+}
+
+\usepackage{etoolbox}
+\makeatletter
+\setbeamertemplate{background canvas}{%
+   \ifnumless{\c@framenumber}{3}{%
+      % First frame
+      \color{white}\rule{\paperwidth}{\paperheight}
+   }{
+     \ifnumequal{\c@framenumber}{\inserttotalframenumber}{
+       % Last frame
+       \color{white}\rule{\paperwidth}{\paperheight}
+       %\includegraphics[width=\paperwidth,height=\paperheight]{last-slide.pdf}
+     }{%
+       % Other frames
+       $if(handout)$
+       $else$
+       \includegraphics[width=\paperwidth,height=\paperheight]{images/slide_bg.png}
+       $endif$
+     }%
+   }%
+}
+\makeatother
+
+\tolerance=1000
+\setbeamerfont{frametitle}{size=\Large,series=\bfseries}
+\usepackage{color}
+\definecolor{uipoppy}{RGB}{225, 64, 5}
+\definecolor{uipaleblue}{RGB}{96,123,139}
+\definecolor{uiblack}{RGB}{0, 0, 0}
+
+\usepackage{tcolorbox}
+
+% These options will be applied to all `tcolorboxes`
+\tcbset{%
+    noparskip,
+    colback=gray!10, %background color of the box
+    colframe=gray!40, %color of frame and title background
+    coltext=black, %color of body text
+    coltitle=black, %color of title text
+    fonttitle=\bfseries,
+    alerted/.style={coltitle=white,
+                     colframe=uipoppy},
+    example/.style={coltitle=black,
+                     colframe=green!20,
+                     colback=green!5},
+    }
+
+
+%\setbeamertemplate{note page}[plain]
+%\setbeameroption{show notes}
+
+% caption styling
+\usepackage{caption}
+\DeclareCaptionFont{uiblack}{\color{uiblack}}
+\DeclareCaptionFont{uipoppy}{\color{uipoppy}}
+\captionsetup{labelfont={uipoppy},textfont=uiblack,skip=5pt}
+
+
+% Section numbers
+%\usepackage{titlesec}
+%\titlelabel{\thetitle.\quad}
+%\newcommand{\beginbackup}{
+%  \newcounter{framenumbervorappendix}
+%  \setcounter{framenumbervorappendix}{\value{framenumber}}
+%}
+%\newcommand{\backupend}{
+%  \addtocounter{framenumbervorappendix}{-\value{framenumber}}
+%  \addtocounter{framenumber}{\value{framenumbervorappendix}}
+%}
+
+%% Section slides
+%\AtBeginSection[] {
+%  \begin{frame}[plain]
+%    \frametitle{Overview}
+%    \tiny
+%    \tableofcontents[currentsection]
+%  \end{frame}
+%  \addtocounter{framenumber}{-1}
+%}
+
+% see the macros.tex file for definitions
+\include{beamer/macros}
+
+% For compact formatting:
+\usepackage{fixltx2e} % fixes for LaTeX
+
+$if(verbatim-in-note)$
+\usepackage{fancyvrb}
+$endif$
+$if(fancy-enums)$
+\usepackage{enumerate}
+$endif$
+$if(tables)$
+% Workaround for longtable in beamer
+\makeatletter
+\def\fnum@table{\tablename~\thetable}
+\makeatother
+%
+\usepackage{multicol}
+\usepackage{booktabs}
+\renewcommand{\arraystretch}{.5}
+\usepackage{multirow}
+\usepackage{longtable}
+$endif$
+$if(url)$
+\usepackage{url}
+$endif$
+$if(graphics)$
+\usepackage{xmpmulti}
+\usepackage{graphicx}
+\makeatletter
+\def\ScaleIfNeeded{%
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+\setkeys{Gin}{width=\ScaleIfNeeded}
+
+\makeatletter
+\def\ScaleHeightIfNeeded{%
+  \ifdim\Gin@nat@height>.6\textheight
+    .6\textheight
+  \else
+    \Gin@nat@height
+  \fi
+}
+\makeatother
+\setkeys{Gin}{height=\ScaleHeightIfNeeded}
+
+\setkeys{Gin}{keepaspectratio=true}
+$endif$
+
+%% Comment these out if you don't want a slide with just the
+%% part/section/subsection/subsubsection title:
+%\AtBeginPart{
+%  \let\insertpartnumber\relax
+%  \let\partname\relax
+%  \frame{\partpage}
+%}
+%\AtBeginSection{
+%  \let\insertsectionnumber\relax
+%  \let\sectionname\relax
+%  \frame{\sectionpage}
+%}
+%\AtBeginSubsection{
+%  \let\insertsubsectionnumber\relax
+%  \let\subsectionname\relax
+%  \frame{\subsectionpage}
+%}
+
+\renewcommand\floatpagefraction{.7}
+\renewcommand\topfraction{.7}
+\renewcommand\bottomfraction{.7}
+\renewcommand\textfraction{.1}
+\linespread{0.95}
+\setlength{\belowcaptionskip}{-10pt}
+\setcounter{totalnumber}{50}
+\setcounter{topnumber}{50}
+\setcounter{bottomnumber}{50}
+
+\usepackage{siunitx}
+\sisetup{group-digits=true,group-minimum-digits={3},tight-spacing=false,group-separator={,},detect-weight=true,detect-inline-weight=math,table-number-alignment=right}%,detect-all=true}
+% For bold cells in tables using siunitx
+\usepackage{etoolbox}
+\robustify\bfseries
+
+%% \setlength\LTleft{0pt}
+%% \setlength\LTright{0pt}
+
+\usepackage{caption}
+\captionsetup{skip=0pt,belowskip=0pt}
+
+$if(strikeout)$
+%\usepackage[normalem]{ulem}
+% avoid problems with \sout in headers with hyperref:
+\pdfstringdefDisableCommands{\renewcommand{\sout}{}}
+$endif$
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+$if(numbersections)$
+$else$
+\setcounter{secnumdepth}{0}
+$endif$
+$if(verbatim-in-note)$
+\VerbatimFootnotes % allows verbatim text in footnotes
+$endif$
+$if(lang)$
+\usepackage[$lang$]{babel}
+$endif$
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+$if(graphics)$
+\usepackage{graphicx}
+$endif$
+
+%% remove navigation bar
+\setbeamertemplate{navigation symbols}{}
+%% transparent overlays
+\setbeamercovered{transparent}
+
+$if(title)$
+\title{\textbf{$title$}}
+$endif$
+$if(author)$
+\author{$for(author)$$author$$sep$ \and $endfor$}
+\institute{\normalsize
+10D55066\\
+Murota Laboratory\\
+Department of Human System Science\\
+Graduate School of Decision Science and Technology\\
+Tokyo Institute of Technology}
+$endif$
+$if(date)$
+\date{$date$}
+$endif$
+
+\begin{document}
+
+%\renewcommand\Switch{0}
+
+$if(title)$
+\frame{\titlepage}
+$endif$
+
+$for(include-before)$
+$include-before$
+
+$endfor$
+$if(toc)$
+\begin{frame}
+\vspace{1cm}
+\tableofcontents[hideallsubsections]
+\end{frame}
+$else$
+
+\begin{frame}
+\begin{center}
+\includegraphics<1>[width=1\textwidth]{images/chapter-deletion-1.pdf}
+\includegraphics<2>[width=1\textwidth]{images/chapter-deletion-2.pdf}
+\end{center}
+\end{frame}
+
+$endif$
+
+%\renewcommand\Switch{1}
+
+%\setbeamertemplate{background canvas}{\includegraphics[width=\paperwidth,height=\paperheight]{./images/slide_bg.png}}
+\beamerdefaultoverlayspecification{<+->}
+
+$body$
+
+%\renewcommand\Switch{0}
+
+$if(natbib)$
+$if(biblio-files)$
+$if(biblio-title)$
+$if(book-class)$
+\renewcommand\bibname{$biblio-title$}
+$else$
+\renewcommand\refname{$biblio-title$}
+$endif$
+$endif$
+\addbibresource{$biblio-files$}
+
+$endif$
+$endif$
+$if(biblatex)$
+
+%\begin{frame}[fragile]
+%\printbibliography[title={PhD References},keyword=bor]
+%\end{frame}
+%
+%\begin{frame}[fragile]
+%\printbibliography[title={Other References}]
+%\end{frame}
+
+% \section*{References}
+% \begin{frame}[allowframebreaks,fragile]
+% \tiny
+% \printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$
+% \end{frame}
+
+
+\begin{frame}
+
+\large
+
+\begin{center}
+Thank you for listening.
+
+ご清聴ありがとうございました。
+
+\end{center}
+
+\end{frame}
+
+$endif$
+$for(include-after)$
+$include-after$
+
+$endfor$
+\end{document}

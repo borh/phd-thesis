@@ -1,0 +1,50 @@
+% This program can be redistributed and/or modified under the terms
+% of the GNU Public License, version 3.
+
+\mode<presentation>
+
+% color definitions
+\definecolor{uipaleblue}{RGB}{96,123,139}
+
+% footer styling
+\setbeamercolor{section in footer}{fg=white,bg=uipaleblue}
+\setbeamercolor{subsection in footer}{fg=white,bg=uipaleblue}
+\setbeamercolor{pagenumber in footer}{fg=white,bg=uipaleblue}
+
+\usepackage{etoolbox}
+\defbeamertemplate*{footline}{bunsentheme}
+{
+  \ifnumless{\c@framenumber}{3}{%
+    \leavevmode%
+    \hbox{%
+    \begin{beamercolorbox}[wd=\paperwidth,ht=3.50ex,dp=1.0ex,right]{}%
+      \footnotesize\bfseries\insertframenumber{} / \inserttotalframenumber\hspace*{.5ex}
+    \end{beamercolorbox}
+    }%
+    \vskip0pt%
+  }{
+    \leavevmode%
+    \hbox{%
+      \begin{beamercolorbox}[wd=.9\paperwidth,ht=3.50ex,dp=1.0ex,left]{section in footer}%
+        \hspace*{2ex}\tiny\bfseries\condensedsans
+        \insertauthor:
+        \inserttitle
+            %{\tiny （中間審査）}
+            %\SecInHead\ \insertsectionhead
+            %\ifx\insertsubsection\empty\else
+            %  \hspace{.5em}>>\hspace{.5em}\RealSubSecInHead\insertsubsectionhead
+            %\fi
+            %%\hspace*{2ex}\footnotesize\bfseries\condensedsans\inserttitle\hspace{.5em}>>\hspace{.5em}\insertsectionhead \insertsubsectionhead%$\blacktriangleright$ \hspace*{.5ex} \insertsectionhead
+      \end{beamercolorbox}%
+      \begin{beamercolorbox}[wd=.1\paperwidth,ht=3.50ex,dp=1.0ex,center]{pagenumber in footer}%
+        \footnotesize\bfseries\insertframenumber{} / \inserttotalframenumber\hspace*{.5ex}
+      \end{beamercolorbox}
+    }%
+    \vskip0pt%
+  }
+}
+
+\setbeamersize{text margin left=0em,text margin right=0em}
+
+\mode
+<all>

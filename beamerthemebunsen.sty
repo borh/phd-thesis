@@ -1,0 +1,51 @@
+% This program can be redistributed and/or modified under the terms
+% of the GNU Public License, version 3.
+
+\mode<presentation>
+
+\newif\ifbeamer@secheader
+\beamer@secheaderfalse
+
+\DeclareOptionBeamer{secheader}{\beamer@secheadertrue}
+\ProcessOptionsBeamer
+
+\useoutertheme{bunsen}
+
+% color definitions
+\definecolor{uipaleblue}{RGB}{96,123,139}
+\definecolor{uipoppy}{RGB}{225,64,0}
+
+% set the title color
+\setbeamercolor{title}{fg=uipaleblue} % Presentation THEME
+%\setbeamercolor{title}{fg=white} % HANDOUT THEME
+
+% set colors for specific elements
+\setbeamercolor{block}{fg=uipoppy}
+\setbeamercolor{block title}{fg=uipoppy} % adjust title color to poppy
+\setbeamercolor{block item}{fg=uipoppy}
+\setbeamercolor{itemize item}{fg=uipoppy} % adjusts the bullet color
+
+% frame title styling
+\setbeamertemplate{frametitle}{\vspace{-0.4cm}
+\color{white} % Presentation THEME
+%\color{black} % HANDOUT THEME
+{\small\insertsectionhead: \insertsubsectionhead}\\\vspace{.15cm}\insertframetitle\vspace{.25cm}}
+
+\usesubitemizeitemtemplate{%
+    \tiny\raise1.5pt\hbox{\color{beamerstructure}$\blacktriangleright$}%
+}
+\usesubsubitemizeitemtemplate{%
+    \tiny\raise1.5pt\hbox{\color{beamerstructure}$\bigstar$}%
+}
+
+\setbeamersize{text margin left=1em,text margin right=1em}
+%\setbeamersize{frametitle=\huge} %%debug -- why xkeyvalue error??
+
+\ifbeamer@secheader\else\setbeamertemplate{headline}[default]\fi
+
+% style toc
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamercolor{section in toc}{fg=black}
+
+\mode
+<all>
