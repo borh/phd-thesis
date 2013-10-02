@@ -10,14 +10,14 @@
 
 \manualmark
 \markboth{\spacedlowsmallcaps{\contentsname}}{\spacedlowsmallcaps{\contentsname}}
-\tableofcontents 
+\tableofcontents
 \automark[section]{chapter}
 \renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}
 \renewcommand{\sectionmark}[1]{\markright{\thesection\enspace\spacedlowsmallcaps{#1}}}
 
 \clearpage
 
-\begingroup 
+\begingroup
 \let\clearpage\relax
 \let\cleardoublepage\relax
 \let\cleardoublepage\relax
@@ -44,23 +44,24 @@
 \pdfbookmark[1]{\listtablename}{lot} % Bookmark name visible in a PDF viewer
 
 \listoftables
-        
-\vspace*{8ex}
-\newpage
-    
-%----------------------------------------------------------------------------------------
-%	List of Listings
-%---------------------------------------------------------------------------------------- 
-
-\refstepcounter{dummy}
-%\addcontentsline{toc}{chapter}{\lstlistlistingname} % Uncomment if you would like the list of listings to appear in the table of contents
-\pdfbookmark[1]{\lstlistlistingname}{lol} % Bookmark name visible in a PDF viewer
-
-\lstlistoflistings 
 
 \vspace*{8ex}
 \newpage
-       
+
+% DEBUG: this shows source code listings in Japanese...
+% %----------------------------------------------------------------------------------------
+% %	List of Listings
+% %----------------------------------------------------------------------------------------
+%
+% \refstepcounter{dummy}
+% %\addcontentsline{toc}{chapter}{\lstlistlistingname} % Uncomment if you would like the list of listings to appear in the table of contents
+% \pdfbookmark[1]{\lstlistlistingname}{lol} % Bookmark name visible in a PDF viewer
+%
+% \lstlistoflistings
+%
+% \vspace*{8ex}
+% \newpage
+
 %----------------------------------------------------------------------------------------
 %	Acronyms
 %----------------------------------------------------------------------------------------
@@ -74,11 +75,34 @@
 \chapter*{Acronyms}
 
 \begin{acronym}[UML]
-\acro{DRY}{Don't Repeat Yourself}
+\acro{AdjN}{Adjective-Noun}
 \acro{API}{Application Programming Interface}
-\acro{UML}{Unified Modeling Language}
-\end{acronym}  
-                   
+\acro{BCCWJ}{Balanced Corpus of Contemporary Written Japanese}
+\acro{CALL}{Computer-Assisted Language Learning}
+\acro{CI}{Confidence Interval}
+\acro{JASSO}{The Japan Student Services Organization}
+\acro{JLPT}{Japanese Language Proficiency Test}
+\acro{KWIC}{KeyWord In Context}
+\acro{L2}{Second Language}
+\acro{LDA}{Latent Dirichlet Allocation}
+\acro{LUW}{Long Unit Word}
+\acro{MD}{Multi-Dimensional}
+\acro{MEXT}{Japanese Ministry of Education, Culture, Sports, Science and Technology}
+\acro{MVR}{Modifier Verb Ratio}
+\acro{NAIST}{Nara Advanced Institute of Science and Technology}
+\acro{NDC}{Nippon Decimal Classification}
+\acro{NINJAL}{National Institute for Japanese Language and Linguistics}
+\acro{NLP}{Natural Language Processing}
+\acro{NPAdj}{Noun-Particle-Adjective}
+\acro{NPV}{Noun-Particle-Verb}
+\acro{ROC}{Receiver Operating Characteristic}
+\acro{SFL}{Systemic Functional Linguistics}
+\acro{STJC}{Scientific and Technical Japanese Corpus}
+\acro{SVM}{Support Vector Machine}
+\acro{SUW}{Short Unit Word}
+\acro{XML}{eXtensible Markup Language}
+\end{acronym}
+
 \endgroup
 
 \cleardoublepage

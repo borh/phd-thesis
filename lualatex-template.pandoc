@@ -1,4 +1,6 @@
-\documentclass[twoside,openright,titlepage,numbers=noenddot,headinclude,%1headlines,
+\documentclass[%twoside,openright,
+  oneside,openright,
+  titlepage,numbers=noenddot,headinclude,%1headlines,oneside
   footinclude=true,cleardoublepage=empty,
   BCOR=5mm,paper=a4,fontsize=11pt, % Binding correction, paper type and font size
   american, % Languages
@@ -7,9 +9,9 @@
 % Load classicthesis config
 \input{classicthesis-config}
 
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
-\usepackage{amssymb,amsmath}
+%\usepackage[T1]{fontenc}
+%\usepackage{lmodern}
+%\usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
 % use upquote if available, for straight quotes in verbatim environments
@@ -20,33 +22,43 @@ $if(euro)$
   \usepackage{eurosym}
 $endif$
 \else % if luatex or xelatex
-  \usepackage{fontspec}
+  %\usepackage[lining,semibold]{libertine-type1}
+  %\usepackage[libertine]{newtxmath}
+  \usepackage[no-math]{fontspec}
   \ifxetex
     \usepackage{xltxtra,xunicode}
     \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
   \fi
   \ifluatex
-    \newfontfeature{Microtype}{protrusion=quality;expansion=quality;tracking=false;}
-    \defaultfontfeatures{Microtype,Fractions=Off,Scale=MatchLowercase,Ligatures=TeX,SmallCapsFont={LinLibertine_R},SmallCapsFeatures={Letters=SmallCaps,Renderer=Basic}}
+    \newfontfeature{Microtype}{protrusion=quality;expansion=quality;tracking=true;}
+    \defaultfontfeatures{Microtype,Fractions=Off,Scale=MatchLowercase,
+                         Ligatures=TeX,
+                         SmallCapsFont={MinionPro_Regular},SmallCapsFeatures={Letters=SmallCaps,Renderer=Basic}
+    }
+    %\setmainfont[
+    %  BoldFont={LinLibertine_RB},
+    %  ItalicFont={LinLibertine_RI},
+    %  BoldItalicFont={LinLibertine_RBI}
+    %]{LinLibertine_R}
     \setmainfont[
-      BoldFont={LinLibertine_RB},
-      ItalicFont={LinLibertine_RI},
-      BoldItalicFont={LinLibertine_RBI}
-    ]{LinLibertine_R}
+      BoldFont={MinionPro_Bold},
+      ItalicFont={MinionPro_It},
+      BoldItalicFont={MinionPro_BoldIt}
+    ]{MinionPro_Regular}
     %%%%\setsansfont[
     %%%%  BoldFont={SourceSansPro-Bold},
     %%%%  ItalicFont={SourceSansPro-It},
     %%%%  BoldItalicFont={SourceSansPro-BoldIt}
     %%%%]{SourceSansPro-Regular}
-    %\setmonofont[
-    %  BoldFont={SourceCodePro-Bold},
-    %  ItalicFont={SourceCodePro-It},
-    %  BoldItalicFont={SourceCodePro-BoldIt}
-    %]{SourceCodePro-Regular}
-    \setmonofont{Inconsolata}
+    \setmonofont[
+      BoldFont={SourceCodePro-Bold}
+    ]{SourceCodePro-Regular}
+    %\setmonofont{Inconsolata}
     \usepackage{luatexja}
-    \usepackage{luatexja-fontspec}
-    %\usepackage[hiragino]{luatexja-preset}
+    %\usepackage{luatexja-fontspec}
+    \usepackage{lualatex-math}
+    \usepackage{unicode-math}
+    %\usepackage[kozuka-pron]{luatexja-preset}
     %\setmainjfont{Hiragino Mincho Pro}
   \fi
   \typearea[current]{last} % recalculate type area based on these new fonts
@@ -74,11 +86,15 @@ $if(natbib)$
 \bibliographystyle{plainnat}
 $endif$
 $if(biblatex)$
+
+% TODO varioref packages adds "on the facing page" or "on page ", and so on to references.
+\usepackage{varioref}
+
 \usepackage[normalem]{ulem} % to underline my name
 \usepackage{hyphenat}
 \usepackage[american]{babel}
 \usepackage{csquotes}
-\usepackage[style=apa,backend=biber,autocite=inline,hyperref=false]{biblatex}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber,autocite=inline,hyperref=true,backref=true]{biblatex}
 \DeclareLanguageMapping{american}{american-apa}
 \let\autocite=\parencite
 $if(biblio-files)$
@@ -179,6 +195,130 @@ $endif$
 \author{$for(author)$$author$$sep$ \and $endfor$}
 \date{$date$}
 
+% Also: http://tex.stackexchange.com/questions/28509/biblatex-filter-out-publications-from-a-specific-author-in-the-references-dynam
+
+\DeclareSourcemap{
+  \maps[datatype=bibtex]{
+    \map{
+      \step[fieldsource=language,
+            match=japanese,
+            final]
+      \step[fieldset=keywords, fieldvalue=japanese]
+    }
+  }
+}
+
+% Allow spaces and dots in filename when using includegraphics.
+\usepackage{grffile}
+% More floats!
+\usepackage[morefloats=85]{morefloats}
+
+%\usepackage{sidecap}
+\renewcommand{\arraystretch}{.8} % .7
+%\usepackage{floatrow}
+%\floatsetup[longtable]{capposition=top}
+%\floatsetup[table]{capposition=top}
+
+%\usepackage{fmtcount} % equivalent to \usepackage[super]{nth}
+\usepackage[level]{fmtcount} % equivalent to \usepackage{nth}
+
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+
+%\usepackage{gb4e} % glosses
+
+% http://tex.stackexchange.com/questions/10104/two-bibliographies-with-two-different-styles-in-the-same-document
+% FIXME Probably better to have an embedded Japanese rendering in one field and just print that out on demand (short??).
+
+\usepackage{adjustbox}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{siunitx}
+%\sisetup{group-separator={,},group-minimum-digits={3},output-decimal-marker={.}}
+\sisetup{group-digits=true,group-minimum-digits={3},tight-spacing=false,group-separator={,},detect-weight=true,detect-inline-weight=math,table-number-alignment=right,input-symbols=()}%,detect-all=true}
+%\newcolumntype{L}{@{}l@{}} % a left column with no intercolumn space on either side
+%\newcommand{\mcc}[1]{\multicolumn{1}{c}{#1}} % shorthand macro for column headings
+% For bold cells in tables using siunitx
+\usepackage{etoolbox}
+\robustify\bfseries
+\robustify\underline
+
+\usepackage{chngpage}
+%% TODO
+% Change this so that margins are extended to the left for a table/figure on the left (odd?), and to the right for even(?) pages. Use with \begin{adjustwidth}{-1in}{-1in} of \usepackage{chngpage}.
+% Source: http://stackoverflow.com/questions/722613/latex-centering-a-table-wider-than-the-text-column
+
+%\usepackage{scrextend}
+% BROKEN
+\makeatletter
+\newcommand*{\expandtablemargins}[1]{
+%\edef\expandtablemargins#1{%
+  \ifthispageodd{
+    \setlength\LTleft{-3cm}
+    \setlength\LTright{-3cm}
+    \begin{adjustwidth}{-3cm}{-3cm}
+      #1
+    \end{adjustwidth}
+  }{
+    \begin{adjustwidth}{-2cm}{0cm}
+      #1
+    \end{adjustwidth}
+  }
+}
+\makeatother
+%\tracingmacros
+
+\setlength\LTleft{2cm}
+\setlength\LTright{2cm}
+
+%\makeatletter
+%\newcommand*{\cleartoleftpage}{%
+%  \clearpage
+%    \if@twoside
+%    \ifodd\c@page
+%      \hbox{}\newpage
+%      \if@twocolumn
+%        \hbox{}\newpage
+%      \fi
+%    \fi
+%  \fi
+%}
+%\makeatother
+
+%%
+
+%%% \renewbibmacro*{pageref}{%
+%%%   \addperiod% NEW
+%%%   \iflistundef{pageref}
+%%%     {}
+%%% %    {\printtext[parens]{% DELETED
+%%%     {\newline\footnotesize\printtext[parens]{% NEW
+%%%        \ifnumgreater{\value{pageref}}{1}
+%%%          {\bibstring{backrefpages}\ppspace}
+%%%      {\bibstring{backrefpage}\ppspace}%
+%%%  %      \printlist[pageref][-\value{listtotal}]{pageref}}}}% DELETED
+%%%        \printlist[pageref][-\value{listtotal}]{pageref}\addperiod}}}% NEW
+
+\usepackage[plain,margin]{fancyref} % vario
+\newcommand*{\fancyrefalglabelprefix}{alg}
+\newcommand*{\fancyrefformulalabelprefix}{formula}
+\frefformat{main}{\fancyrefalglabelprefix}{algorithm~#1#2}
+\Frefformat{main}{\fancyrefalglabelprefix}{Algorithm~#1#2}
+\frefformat{main}{\fancyrefformulalabelprefix}{formula~#1#2}
+\Frefformat{main}{\fancyrefformulalabelprefix}{Formula~#1#2}
+\usepackage{cleveref}
+\crefname{section}{§}{§§}
+\Crefname{section}{§}{§§}
+\crefformat{section}{§#2#1~#3}
+\Crefformat{section}{§#2#1~#3}
+
+\usepackage[linesnumbered]{algorithm2e}
+
+% Style R packages and other program names.
+\newcommand{\pkg}[1]{{\fontseries{b}\selectfont #1}}
+\renewcommand{\pkg}[1]{{\textsf{#1}}}
+
 %%%%\usepackage{geometry}
 %%%%\geometry{verbose,tmargin=2cm,bmargin=2.2cm,lmargin=2cm,rmargin=2cm}
 %%%%% For compact formatting:
@@ -210,9 +350,9 @@ $if(title)$
 \include{FrontBackMatter/Titleback} % Back of the title page
 $endif$
 
-\cleardoublepage\include{FrontBackMatter/Dedication} % Dedication page
+%\cleardoublepage\include{FrontBackMatter/Dedication} % Dedication page % TODO FIXME
 %\cleardoublepage\include{FrontBackMatter/Foreword} % Uncomment and create a Foreword.tex to include a foreword
-\cleardoublepage\include{FrontBackMatter/Abstract} % Abstract page
+%\cleardoublepage\include{FrontBackMatter/Abstract} % Abstract page
 \cleardoublepage\include{FrontBackMatter/Publication} % Publications from the thesis page
 \cleardoublepage\include{FrontBackMatter/Acknowledgments} % Acknowledgements page
 \pagestyle{scrheadings} % Show chapter titles as headings
@@ -251,6 +391,7 @@ $endif$
 $endif$
 $endif$
 $if(biblatex)$
+%\part*{Bibliography}
 \label{app:bibliography}
 \manualmark
 \markboth{\spacedlowsmallcaps{\bibname}}{\spacedlowsmallcaps{\bibname}}
@@ -258,7 +399,10 @@ $if(biblatex)$
 
 \addtocontents{toc}{\protect\vspace{\beforebibskip}} % Place the bibliography slightly below the rest of the document content in the table of contents
 \addcontentsline{toc}{chapter}{\tocEntry{\bibname}}
-\printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$
+
+\printbibliography[$if(biblio-title)$title=$biblio-title$$else$title={Print References}$endif$,nottype=online] % ,notkeyword=japanese
+\printbibliography[title={Online References},type=online] % ,notkeyword=japanese
+%\printbibliography[title={Japanese References}] % ,keyword=japanese % TODO \fullcite{JHodoscek2009} \fullcite{JHodoscek2009c}
 $endif$
 
 $for(include-after)$

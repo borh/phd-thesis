@@ -7,10 +7,48 @@
 \let\cleardoublepage\relax
 \let\cleardoublepage\relax
 
+\chapter*{Short Abstract} % Abstract name
+
+Writing in Japanese as a second language in an academic context is a complicated task that requires of writers more than basic language skills. Writers must develop mastery over the four basic scripts of the Japanese writing system, as well as knowledge of the stylistic conventions particular to their academic field. In this thesis, I develop models of writing context in terms of register, topic and readability and implement them in two writing assistance systems. The models are constructed using corpora containing texts from a diverse set of registers, and evaluated in terms of their effectiveness in writing assistance systems. Finally, the research is evaluated from the perspectives of reliability, reproducibility, genericity, extensibility, efficiency, and future prospects.
+
+
 \chapter*{Abstract} % Abstract name
 
-Short summary of the contents\dots
+%The other way depends on access to native language data that varies widely in register.
 
-\endgroup			
+% In these circumstances,
+% Computer-aided writing assistance can be divided into three categories: spelling, grammar, style and semantics checkers.
+
+Writing is not only an important form of communication but is one of the core skills in higher education.
+The challenge of academic writing in Japanese as a second language (L2) is compounded by the complexities of the Japanese writing system and difficulties in acquiring the specialized knowledge of academic writing style necessary to be an effective communicator.
+Although the use of spellcheckers and online grammar correction services is ubiquitous, they seldom effectively support the specialized needs of L2 writers.
+With access to large quantities of language data available at low monetary and computational cost, methods taking advantage of this data for the purposes of writing assistance have become commonplace.
+However, while learners using a search engine are able to look for examples of how to use words or expressions, the general purpose nature of many such tools limits the amount of assistance they can provide.
+In this thesis, I propose the use of recently available language corpora to drive writing assistance systems for L2 writers attending Japanese institutions of higher education that are required to write reports and papers in Japanese.
+This thesis shows that 1) linguistic resources such as corpora are effective in assisting collocation usage in writing, and that 2) it is possible to develop a model of writing style (register) that discriminates between correct writing styles using only corpora containing diverse registers.
+
+In Part II, I introduce the language resources and natural language processing technologies used to construct the models of writing context that are then used to drive the writing assistance systems of Part III.
+First I introduce the three corpora (databases of text including metadata) used as the basis of further analysis: the Scientific and Technical Japanese Corpus (STJC), the Balanced Corpus of Contemporary Written Japanese (BCCWJ), and the Japanese version of Wikipedia.
+Using these corpora, the concept of writing context is explained in terms of models of register, topic and readability.
+Register is examined with methods derived from previous research and compared to a hierarchical n-gram model system.
+A Latent Dirichlet Allocation model is used for the topic model, while readability is modelled based on several linguistic features and evaluated on the Japanese textbook sub-corpus of the BCCWJ.
+
+In Part III, I examine the effectiveness of collocation search in the Natsume system, as well as the register misuse detection feature in the Nutmeg system.
+Natsume is an online writing assistance system that enables users to search for collocations (commonly co-occurring words), as well as compare their usage in several different genres.
+Two experiments on the effectiveness of Natsume were conducted, with a focus on undergraduate L2 learners of Japanese attending a Japanese university.
+In the first experiment, we measured the effectiveness of using Natsume to assist participants in rewriting sentences from an informal to an academic register.
+While advanced learners did not measurably improve, intermediate and especially beginning learners showed improvement.
+In order to measure the effectiveness of Natsume in an authentic writing environment, a second evaluation experiment consisting of a report writing task was conducted.
+Participants' use of collocations was evaluated based on five criteria and showed improvement when using Natsume compared to a control setting.
+The main area for improvement was identified as the inability of participants to check words and phrases in Natsume that they believed were correct.
+The writing assistance system Nutmeg identifies errors in reports and academic prose and was in part developed to overcome some of Natsume's deficiencies: unchecked errors and the cognitive burden associated with switching between applications while writing.
+Nutmeg utilizes the register misuse detection feature which uses the register model introduced in Part II.
+For Nutmeg, I examine the effectiveness of this model in detecting register errors on an error-tagged learner corpus.
+Finally, I outline the composition of a writing assistance system utilizing the three contextual models.
+
+Concluding in Part IV, I list the contributions of the models and systems to L2 technical Japanese education, linguistics, and educational technology.
+Additionally, the research is evaluated from the perspectives of reliability, reproducibility, genericity, extensibility and efficiency.
+
+\endgroup
 
 \vfill

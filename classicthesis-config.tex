@@ -13,23 +13,23 @@
 %----------------------------------------------------------------------------------------
 
 % Remove drafting to get rid of the '[ Date - classicthesis version 4.0 ]' text at the bottom of every page
-\PassOptionsToPackage{eulerchapternumbers,listings,drafting, pdfspacing, subfig,eulermath,parts}{classicthesis}
+\PassOptionsToPackage{eulerchapternumbers,listings,pdfspacing,subfig,parts}{classicthesis} % drafting,eulermath,
 % Available options: drafting parts nochapters linedheaders eulerchapternumbers beramono eulermath pdfspacing minionprospacing tocaligned dottedtoc manychapters listings floatperchapter subfig
 % Adding 'dottedtoc' will make page numbers in the table of contents flushed right with dots leading to them
 
 \newcommand{\myTitle}{Contextually Aware Writing Assistance System for Japanese\xspace}
-\newcommand{\mySubtitle}{Subtitle (TODO)\xspace}
-\newcommand{\myDegree}{Doctor of Philosophy in Engineering\xspace}
+\newcommand{\mySubtitle}{\xspace}
+\newcommand{\myDegree}{Doctor of Engineering\xspace}
 \newcommand{\myName}{Bor Hodošček\xspace}
 \newcommand{\myProf}{Masao Murota\xspace}
-\newcommand{\myOtherProf}{Put name here\xspace}
+\newcommand{\myOtherProf}{Minoru Nakayama, Kayoko Nohara, Hilofumi Yamamoto, Hiroyuki Akama\xspace}
 \newcommand{\mySupervisor}{Masao Murota\xspace}
 \newcommand{\myFaculty}{Graduate School of Decision Science and Technology\xspace}
-\newcommand{\myDepartment}{Human System Science\xspace}
+\newcommand{\myDepartment}{Department of Human System Science\xspace}
 \newcommand{\myUni}{Tokyo Institute of Technology\xspace}
 \newcommand{\myLocation}{Tokyo\xspace}
-\newcommand{\myTime}{September 2013\xspace}
-\newcommand{\myVersion}{version 4.0\xspace}
+\newcommand{\myTime}{\today\xspace}
+\newcommand{\myVersion}{version 1.2\xspace}
 
 %----------------------------------------------------------------------------------------
 %	USEFUL COMMANDS
@@ -76,8 +76,8 @@
 
  %------------------------------------------------
 
-\PassOptionsToPackage{T1}{fontenc} % T2A for cyrillics
-\usepackage{fontenc}
+%\PassOptionsToPackage{T1}{fontenc} % T2A for cyrillics
+%\usepackage{fontenc}
 
 %------------------------------------------------
 
@@ -178,25 +178,25 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 \newboolean{enable-backrefs} % Variable to enable backrefs in the bibliography
 \setboolean{enable-backrefs}{false} % Variable value: true or false
 
-\newcommand{\backrefnotcitedstring}{\relax} % (Not cited.)
-\newcommand{\backrefcitedsinglestring}[1]{(Cited on page~#1.)}
-\newcommand{\backrefcitedmultistring}[1]{(Cited on pages~#1.)}
-\ifthenelse{\boolean{enable-backrefs}} % If backrefs were enabled
-{
-\PassOptionsToPackage{hyperpageref}{backref}
-\usepackage{backref} % to be loaded after hyperref package
-\renewcommand{\backreftwosep}{ and~} % separate 2 pages
-\renewcommand{\backreflastsep}{, and~} % separate last of longer list
-\renewcommand*{\backref}[1]{}  % disable standard
-\renewcommand*{\backrefalt}[4]{% detailed backref
-\ifcase #1
-\backrefnotcitedstring
-\or
-\backrefcitedsinglestring{#2}
-\else
-\backrefcitedmultistring{#2}
-\fi}
-}{\relax}
+%%%%\newcommand{\backrefnotcitedstring}{\relax} % (Not cited.)
+%%%%\newcommand{\backrefcitedsinglestring}[1]{(Cited on page~#1.)}
+%%%%\newcommand{\backrefcitedmultistring}[1]{(Cited on pages~#1.)}
+%%%%\ifthenelse{\boolean{enable-backrefs}} % If backrefs were enabled
+%%%%{
+%%%%\PassOptionsToPackage{hyperpageref}{backref}
+%%%%\usepackage{backref} % to be loaded after hyperref package
+%%%%\renewcommand{\backreftwosep}{ and~} % separate 2 pages
+%%%%\renewcommand{\backreflastsep}{, and~} % separate last of longer list
+%%%%\renewcommand*{\backref}[1]{}  % disable standard
+%%%%\renewcommand*{\backrefalt}[4]{% detailed backref
+%%%%\ifcase #1
+%%%%\backrefnotcitedstring
+%%%%\or
+%%%%\backrefcitedsinglestring{#2}
+%%%%\else
+%%%%\backrefcitedmultistring{#2}
+%%%%\fi}
+%%%%}{\relax}
 
 %----------------------------------------------------------------------------------------
 %	AUTOREFERENCES SETUP
