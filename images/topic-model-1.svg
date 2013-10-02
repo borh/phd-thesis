@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1108.6221"
+   height="271.05063"
+   id="svg119719"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="topic-model-1.svg">
+  <defs
+     id="defs119721">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-4-8"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path223584-6-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker119692"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path119694"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="538.1682"
+     inkscape:cy="152.14627"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1166"
+     inkscape:window-height="700"
+     inkscape:window-x="113"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata119724">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(163.1682,-413.45783)">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="46.912018"
+       y="500.9537"
+       id="text6986"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="46.912018"
+         y="500.9537"
+         id="tspan6992"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Hiragino Kaku Gothic Pro;-inkscape-font-specification:Hiragino Kaku Gothic Pro Light">教育、学校、文部、社会、学習</tspan><tspan
+         sodipodi:role="line"
+         x="46.912018"
+         y="540.95374"
+         id="tspan6994" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="44.575974"
+       y="540.95282"
+       id="text7000"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7002"
+         x="44.575974"
+         y="540.95282"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Hiragino Kaku Gothic Pro;-inkscape-font-specification:Hiragino Kaku Gothic Pro Light">(教育,0.500869)   (学校,0.162328)   (文部,0.0422419) </tspan><tspan
+         sodipodi:role="line"
+         x="44.575974"
+         y="580.95282"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Hiragino Kaku Gothic Pro;-inkscape-font-specification:Hiragino Kaku Gothic Pro Light"
+         id="tspan7004">(社会,0.0295168) (学習,0.0289082) (子供,0.0267782)</tspan><tspan
+         sodipodi:role="line"
+         x="44.575974"
+         y="620.95282"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Hiragino Kaku Gothic Pro;-inkscape-font-specification:Hiragino Kaku Gothic Pro Light"
+         id="tspan7006">(高等,0.0196688) (教員,0.0188665) (指導,0.018009)</tspan><tspan
+         sodipodi:role="line"
+         x="44.575974"
+         y="660.95282"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Hiragino Kaku Gothic Pro;-inkscape-font-specification:Hiragino Kaku Gothic Pro Light"
+         id="tspan7008">(教科,0.0173174) (生涯,0.0160172) (大学,0.015132)…</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-148.54562"
+       y="501.44739"
+       id="text7010"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7012"
+         x="-148.54562"
+         y="501.44739"
+         style="font-size:32px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Hiragino Kaku Gothic Pro;-inkscape-font-specification:Hiragino Kaku Gothic Pro Semi-Bold"><tspan
+   style="font-size:28px"
+   id="tspan119786">Topic name</tspan>：</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-149.48312"
+       y="543.35065"
+       id="text7010-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7012-7"
+         x="-149.48312"
+         y="543.35065"
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Hiragino Kaku Gothic Pro;-inkscape-font-specification:Hiragino Kaku Gothic Pro Semi-Bold">Topic word  :</tspan><tspan
+         sodipodi:role="line"
+         x="-149.48312"
+         y="578.35065"
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Hiragino Kaku Gothic Pro;-inkscape-font-specification:Hiragino Kaku Gothic Pro Semi-Bold"
+         id="tspan119792">probabilities</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="624.30396"
+       y="464.24231"
+       id="text7115"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7117"
+         x="624.30396"
+         y="464.24231"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Hiragino Kaku Gothic Pro;-inkscape-font-specification:Hiragino Kaku Gothic Pro Light">word</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:99.00000095%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="811.31995"
+       y="448.04282"
+       id="text7115-3"
+       sodipodi:linespacing="99.000001%"><tspan
+         sodipodi:role="line"
+         x="811.31995"
+         y="448.04282"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:center;line-height:99.00000095%;text-anchor:middle;font-family:Hiragino Kaku Gothic Pro;-inkscape-font-specification:Hiragino Kaku Gothic Pro Light"
+         id="tspan7140">probability of word</tspan><tspan
+         sodipodi:role="line"
+         x="811.31995"
+         y="471.80283"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:center;line-height:99.00000095%;text-anchor:middle;font-family:Hiragino Kaku Gothic Pro;-inkscape-font-specification:Hiragino Kaku Gothic Pro Light"
+         id="tspan119802">in topic</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend-4-8)"
+       d="m 646.31994,466.04291 0,40"
+       id="path7148"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend-4-8)"
+       d="m 811.31994,473.0429 0,40"
+       id="path7148-8"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2.05486584;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect7496"
+       width="1106.5673"
+       height="268.99576"
+       x="-162.14076"
+       y="414.48526"
+       ry="13.280711" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot119804"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion119806"><rect
+           id="rect119808"
+           width="218.57143"
+           height="122.85714"
+           x="660"
+           y="402.36218" /></flowRegion><flowPara
+         id="flowPara119810" /></flowRoot>  </g>
+</svg>

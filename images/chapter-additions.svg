@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2961.7673"
+   height="2028.5614"
+   id="svg3171"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="chapter-additions.svg">
+  <defs
+     id="defs3173">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker3173-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4,0.4)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path3175-3" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker3191"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4,0.4)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path3193" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker3173"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4,0.4)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path3175" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker3197"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4,0.4)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path3199" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker3201"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.4,0.4)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         id="path3203" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="2479.3324"
+     inkscape:cy="667.40755"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="849"
+     inkscape:window-x="-2"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata3176">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1597.8866,481.46436)">
+    <rect
+       style="opacity:0.1;fill:#00ffff;fill-opacity:1;stroke:none"
+       id="rect5800"
+       width="322.85715"
+       height="82.85714"
+       x="1030.6848"
+       y="475.66849"
+       ry="28.082897" />
+    <rect
+       style="opacity:0.1;fill:#00ffff;fill-opacity:1;stroke:none"
+       id="rect3494"
+       width="1619.5278"
+       height="395.97974"
+       x="-1601.9271"
+       y="1155.158"
+       ry="28.082897" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="rect5347-6-64"
+       width="916.64716"
+       height="123.87109"
+       x="30.831238"
+       y="-308.36105"
+       ry="40.821152" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
+       x="193.8504"
+       y="-355.75754"
+       id="text5349-7-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5351-4-0"
+         x="193.8504"
+         y="-355.75754"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;fill:#607b8b;fill-opacity:1;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro">Part I : Background</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
+       x="462.38165"
+       y="-259.09543"
+       id="text5353-98-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5355-1-6"
+         x="462.38165"
+         y="-259.09543"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro">Chapter 1 : Introduction</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
+       x="212.05084"
+       y="-209.86595"
+       id="text220-4-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan222-3-6"
+         x="212.05084"
+         y="-209.86595"
+         style="font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro">Joyce, Hodošček, &amp; Nishina, 2012</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="fill:#24c5ff;fill-opacity:1;stroke:none;display:inline"
+       id="path897-0-9"
+       sodipodi:sides="5"
+       sodipodi:cx="-177.78685"
+       sodipodi:cy="19.202942"
+       sodipodi:r1="114.57655"
+       sodipodi:r2="54.987675"
+       sodipodi:arg1="2.0943951"
+       sodipodi:arg2="2.7227136"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m -235.07513,118.42915 7.05454,-76.860704 -61.83904,-46.1873088 75.27884,-17.0420002 24.81743,-73.085086 39.47035,66.328167 77.17705,1.018241 -50.88483,58.035062 22.88062,73.714389 -70.9189,-30.460522 z"
+       inkscape:transform-center-x="-0.0043582304"
+       inkscape:transform-center-y="-2.4781642"
+       transform="matrix(0.22858665,0.023829,-0.023829,0.22858665,221.35112,-220.97638)" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
+       x="97.201599"
+       y="-86.505592"
+       id="text5349-7-4-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5351-4-6-8"
+         x="97.201599"
+         y="-86.505592"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;fill:#607b8b;fill-opacity:1;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro">Part II : Contextual Model</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
+       x="72.102966"
+       y="22.351858"
+       id="text5389-2-0-3-9"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="72.102966"
+         y="22.351858"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+         id="tspan4038-1">Chapter 2:</tspan><tspan
+         sodipodi:role="line"
+         x="72.102966"
+         y="82.35186"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+         id="tspan4042-6">Contextual Model and</tspan><tspan
+         sodipodi:role="line"
+         x="72.102966"
+         y="142.35185"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+         id="tspan4044-2">Writing Context</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="rect5387-4-4-6-9"
+       width="701.79095"
+       height="238.01056"
+       x="-279.52625"
+       y="-32.580791"
+       ry="53.395775" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
+       x="896.46552"
+       y="28.833303"
+       id="text5389-2-0-3-6-1"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="896.46552"
+         y="28.833303"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+         id="tspan4038-7-6">Chapter 3:</tspan><tspan
+         sodipodi:role="line"
+         x="896.46552"
+         y="88.833305"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+         id="tspan4044-1-1">Context and Corpora</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
+       x="-92.01355"
+       y="307.6897"
+       id="text5389-2-0-3-6-7-0"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="-92.01355"
+         y="307.6897"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+         id="tspan4038-7-3-9">Chapter 4:</tspan><tspan
+         sodipodi:role="line"
+         x="-92.01355"
+         y="367.6897"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+         id="tspan4117-6">Register Model</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="rect5387-4-4-6-5-1-2"
+       width="540.97467"
+       height="238.83655"
+       x="-379.63257"
+       y="245.29124"
+       ry="53.581078" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
+       x="489.15509"
+       y="309.83618"
+       id="text5389-2-0-3-6-7-2-8"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="489.15509"
+         y="309.83618"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+         id="tspan4038-7-3-3-1">Chapter 5:</tspan><tspan
+         sodipodi:role="line"
+         x="489.15509"
+         y="369.83618"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+         id="tspan4117-8-3">Topic Model</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="rect5387-4-4-6-5-1-8-2"
+       width="560.03497"
+       height="238.73259"
+       x="209.13751"
+       y="245.83617"
+       ry="53.557758" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
+       x="1089.9497"
+       y="309.75122"
+       id="text5389-2-0-3-6-7-1-7"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="1089.9497"
+         y="309.75122"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+         id="tspan4038-7-3-1-0">Chapter 6:</tspan><tspan
+         sodipodi:role="line"
+         x="1089.9497"
+         y="369.75122"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+         id="tspan4117-2-5">Readability Model</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+       x="909.35101"
+       y="438.43091"
+       id="text174-7-4-7-6-1-5-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan176-3-2-7-5-9-8-8"
+         x="909.35101"
+         y="438.43091">Hodošček et. al., 2012</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="rect5387-4-4-6-5-1-9-9"
+       width="531.29126"
+       height="238.45793"
+       x="826.02972"
+       y="245.40257"
+       ry="53.49614" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
+       x="-59.69104"
+       y="591.24438"
+       id="text5349-7-4-1-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5351-4-6-7-8"
+         x="-59.69104"
+         y="591.24438"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;fill:#607b8b;fill-opacity:1;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro">Part III : Writing Assistance Systems</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
+       x="88.970154"
+       y="707.34119"
+       id="text5389-2-0-3-6-4-3"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="88.970154"
+         y="707.34119"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+         id="tspan4044-1-5-5">Chapter 7: Natsume</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
+       x="886.63153"
+       y="705.36853"
+       id="text5389-2-0-3-6-7-3-1"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="886.63153"
+         y="705.36853"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+         id="tspan4117-0-1">Chapter 8: Nutmeg</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="rect5347-6-6-6"
+       width="837.66504"
+       height="93.460403"
+       x="55.472839"
+       y="1018.2914"
+       ry="30.799448" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
+       x="175.0274"
+       y="962.34705"
+       id="text5349-7-5-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5351-4-69-0"
+         x="175.0274"
+         y="962.34705"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;fill:#607b8b;fill-opacity:1;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro">Part IV : Conclusion</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
+       x="191.88409"
+       y="1080.4417"
+       id="text5353-98-3-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5355-1-4-1"
+         x="191.88409"
+         y="1080.4417"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro">Chapter 9: Conclusion</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+       x="-225.60754"
+       y="413.37915"
+       id="text174-73-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan176-1-0"
+         x="-225.60754"
+         y="413.37915">Hodošček, 2011</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
+       x="-308.80408"
+       y="466.7395"
+       id="text230-0-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan232-0-9"
+         x="-308.80408"
+         y="466.7395"
+         style="font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro">Hodošček &amp; Nishina, 2011</tspan></text>
+    <path
+       sodipodi:type="star"
+       style="fill:#24c5ff;fill-opacity:1;stroke:none;display:inline"
+       id="path897-9-1-6"
+       sodipodi:sides="5"
+       sodipodi:cx="-177.78685"
+       sodipodi:cy="19.202942"
+       sodipodi:r1="114.57655"
+       sodipodi:r2="54.987675"
+       sodipodi:arg1="2.0943951"
+       sodipodi:arg2="2.7227136"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m -235.07513,118.42915 7.05454,-76.860704 -61.83904,-46.1873088 75.27884,-17.0420002 24.81743,-73.085086 39.47035,66.328167 77.17705,1.018241 -50.88483,58.035062 22.88062,73.714389 -70.9189,-30.460522 z"
+       inkscape:transform-center-x="-0.0043582304"
+       inkscape:transform-center-y="-2.4781642"
+       transform="matrix(0.22858665,0.023829,-0.023829,0.22858665,-214.53252,401.33262)" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+       x="256.70294"
+       y="439.22583"
+       id="text174-7-7-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan176-3-8-1"
+         x="256.70294"
+         y="439.22583">Hodošček &amp; Nishina, 2012a</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+       x="-92.758667"
+       y="772.19763"
+       id="text224-6-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-92.758667"
+         y="772.19763"
+         id="tspan228-9-0">Hodošček et. al., 2011</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro"
+       x="-137.51697"
+       y="833.54138"
+       id="text224-7-5-9-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-137.51697"
+         y="833.54138"
+         id="tspan228-0-6-2-5">Hodošček &amp; Nishina, 2012b</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
+       x="631.29291"
+       y="829.58533"
+       id="text230-5-1-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan232-3-2-9"
+         x="631.29291"
+         y="829.58533"
+         style="font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro">Yagi, Hodošček &amp; Nishina, 2012</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
+       x="672.15472"
+       y="772.22498"
+       id="text230-6-9-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan232-1-9-0"
+         x="672.15472"
+         y="772.22498"
+         style="font-family:Source Sans Pro;-inkscape-font-specification:Source Sans Pro">Hodošček &amp; Nishina, 2011</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="rect5387-4-4-6-2-2"
+       width="701.79095"
+       height="238.01056"
+       x="556.26495"
+       y="-32.580791"
+       ry="53.395775" />
+    <path
+       sodipodi:type="star"
+       style="fill:#24c5ff;fill-opacity:1;stroke:none;display:inline"
+       id="path897-2-0-7-4"
+       sodipodi:sides="5"
+       sodipodi:cx="-177.78685"
+       sodipodi:cy="19.202942"
+       sodipodi:r1="114.57655"
+       sodipodi:r2="54.987675"
+       sodipodi:arg1="2.0943951"
+       sodipodi:arg2="2.7227136"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m -235.07513,118.42915 7.05454,-76.860704 -61.83904,-46.1873088 75.27884,-17.0420002 24.81743,-73.085086 39.47035,66.328167 77.17705,1.018241 -50.88483,58.035062 22.88062,73.714389 -70.9189,-30.460522 z"
+       inkscape:transform-center-x="-0.0043582304"
+       inkscape:transform-center-y="-2.4781642"
+       transform="matrix(0.22858665,0.023829,-0.023829,0.22858665,-79.098224,763.67165)" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="rect5387-4-4-6-5-9-1-9-9"
+       width="706.38953"
+       height="211.4008"
+       x="-263.88904"
+       y="647.6449"
+       ry="47.426086" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
+       id="rect5387-4-4-6-5-9-1-9-8-0"
+       width="706.38953"
+       height="211.4008"
+       x="534.50079"
+       y="647.6449"
+       ry="47.426086" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif"
+       x="-397.29507"
+       y="-428.97607"
+       id="text3168"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3170"
+         x="-397.29507"
+         y="-428.97607"
+         style="font-size:72px">⁜ Thesis underwent extensive outside editing for clarity</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif"
+       x="-1569.6024"
+       y="1235.8657"
+       id="text3172"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3174"
+         x="-1569.6024"
+         y="1235.8657"
+         style="font-size:64px">+ Experiment 1: COANOVA analysis of scores found</tspan><tspan
+         sodipodi:role="line"
+         x="-1569.6024"
+         y="1315.8657"
+         style="font-size:64px"
+         id="tspan3488">   main effects for Condition &amp; L1 <tspan
+   style="font-size:64px;font-style:italic"
+   id="tspan5994">(Next slides)</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif"
+       x="-1569.6024"
+       y="1416.1138"
+       id="text3176"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3178"
+         x="-1569.6024"
+         y="1416.1138"
+         style="font-size:64px">+ Experiment 2: Analysis of survey results and multiple</tspan><tspan
+         sodipodi:role="line"
+         x="-1569.6024"
+         y="1496.1138"
+         style="font-size:64px"
+         id="tspan3486">   linear regression analysis on time taken to complete task</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif"
+       x="-1407.9298"
+       y="276.54016"
+       id="text4216"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4218"
+         x="-1407.9298"
+         y="276.54016"
+         style="font-size:72px">Introduction to register moved</tspan></text>
+    <rect
+       style="opacity:0.1;fill:#00ffff;fill-opacity:1;stroke:none"
+       id="rect4486"
+       width="993.99011"
+       height="113.13708"
+       x="-1437.3644"
+       y="194.23381"
+       ry="28.082897" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker3201)"
+       d="m 2056.6706,863.53208 c -208.7545,0 -185.0646,-286.88332 101.0152,-286.88332"
+       id="path4488"
+       inkscape:connector-curvature="0"
+       transform="translate(-2401.968,-500.33374)"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif"
+       x="-1573.6429"
+       y="-52.984512"
+       id="text4680"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4682"
+         x="-1573.6429"
+         y="-52.984512"
+         style="font-size:72px">+ Expansion of discussion relating the field</tspan><tspan
+         sodipodi:role="line"
+         x="-1573.6429"
+         y="37.015488"
+         style="font-size:72px"
+         id="tspan4684">    of experience with register, topic, and</tspan><tspan
+         sodipodi:role="line"
+         x="-1573.6429"
+         y="127.01549"
+         style="font-size:72px"
+         id="tspan4686">    readability </tspan></text>
+    <rect
+       style="opacity:0.1;fill:#00ffff;fill-opacity:1;stroke:none"
+       id="rect4688"
+       width="1321.2795"
+       height="307.08636"
+       x="-1593.8459"
+       y="-133.79671"
+       ry="28.082897" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker3201)"
+       d="m 2076.8736,1667.6135 c 0.6659,-186.8002 -3.2165,-320.0967 121.2183,-391.9392"
+       id="path4747"
+       inkscape:connector-curvature="0"
+       transform="translate(-2401.968,-500.33374)"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="opacity:0.10000000000000001;fill:#ccffaa;fill-opacity:1;stroke:none"
+       id="rect5780"
+       width="1733.4218"
+       height="96.974648"
+       x="1179.8582"
+       y="-20.027958"
+       transform="translate(-1597.8866,-481.46436)"
+       ry="28.082897" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif"
+       x="-1510.6669"
+       y="450.45279"
+       id="text5782"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5784"
+         x="-1510.6669"
+         y="450.45279"
+         style="font-size:64px">Expanded analysis:</tspan><tspan
+         sodipodi:role="line"
+         x="-1510.6669"
+         y="530.45276"
+         style="font-size:64px"
+         id="tspan5786">+ Correlation results</tspan><tspan
+         sodipodi:role="line"
+         x="-1510.6669"
+         y="610.45276"
+         style="font-size:64px"
+         id="tspan5788">+ Hierarchical cluster analysis of topic</tspan><tspan
+         sodipodi:role="line"
+         x="-1510.6669"
+         y="690.45276"
+         style="font-size:64px"
+         id="tspan5790">    coverage</tspan><tspan
+         sodipodi:role="line"
+         x="-1510.6669"
+         y="770.45276"
+         style="font-size:64px"
+         id="tspan5792">+ Analysis of top 5 topics per media</tspan></text>
+    <rect
+       style="opacity:0.1;fill:#00ffff;fill-opacity:1;stroke:none"
+       id="rect5794"
+       width="1040.4572"
+       height="406.08133"
+       x="-1526.8292"
+       y="393.88425"
+       ry="28.082897" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif"
+       x="1047.8278"
+       y="532.81128"
+       id="text5796"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5798"
+         x="1047.8278"
+         y="532.81128"
+         style="font-size:64px;font-style:italic">Next slides</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker3201)"
+       d="m 1057.1428,1012.8471 c 177.809,47.6438 800.3371,-4.6227 862.8572,-67.14284"
+       id="path5802"
+       inkscape:connector-curvature="0"
+       transform="translate(-1597.8866,-481.46436)"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:64px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif"
+       x="82.113274"
+       y="1264.2399"
+       id="text5996"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="82.113274"
+         y="1264.2399"
+         id="tspan6000">Register misuse identification method moved</tspan><tspan
+         sodipodi:role="line"
+         x="82.113274"
+         y="1344.2399"
+         id="tspan6010">from end of Register chapter</tspan><tspan
+         sodipodi:role="line"
+         x="82.113274"
+         y="1424.2399"
+         id="tspan6004">+ Evaluation of method on collocations added</tspan></text>
+    <rect
+       style="opacity:0.1;fill:#00ffff;fill-opacity:1;stroke:none"
+       id="rect6020"
+       width="1271.4286"
+       height="262.85715"
+       x="1660"
+       y="1674.2756"
+       transform="translate(-1597.8866,-481.46436)"
+       ry="28.082897" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker3201)"
+       d="m 1130.6848,1207.3827 c 67.1794,-116.3581 99.5718,-238.79606 57.1429,-397.14276"
+       id="path6022"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>
