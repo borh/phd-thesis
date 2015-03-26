@@ -224,7 +224,7 @@ FIXME: expand table + types. Feature MS Research system.
 Online dictionaries and, especially, the Japanese language input environment (IME) exert considerable influences on the styles of many writers, but they provide little help in automatically checking for problems in meaning, grammar, or style.
 Grammar checkers have predominantly been limited in scope; a good example is Chantokun, a recent system that only looks for misuses of Japanese particles. \marginpar{$\rightarrow$ \S\ref{sec:chantokun}}
 Style checkers mostly help to identify common style incongruities, such as the distinction between the 'dearu-cho' and 'desu/masu-cho' forms of writing.
-Overall, there is an increasing trend to take advantage of large-scale language data for these tasks, as is the case with the @AfterTheDeadline system as well as the Microsoft Research ESL Reading Assistant^[Although it operation has discontinued.] [@Mudge:2010:DPS:1860657.1860661; @leacock2009user].
+Overall, there is an increasing trend to take advantage of large-scale language data for these tasks, as is the case with the @AfterTheDeadline system as well as the Microsoft Research ESL Reading Assistant^[Although its operation has discontinued.] [@Mudge:2010:DPS:1860657.1860661; @leacock2009user].
 
 
 Table: Error types and common applications providing assistance.
